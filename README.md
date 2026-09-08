@@ -2,7 +2,20 @@
 
 Tiny local LLM with a ChatGPT-style UI, plus a Jira assistant panel.
 
-## Setup
+## Quick install (recommended)
+
+**macOS / Linux**
+```bash
+./install.sh
+./run.sh
+```
+
+**Windows** — double-click `install.bat`, then `run.bat`.
+
+The installer creates a `.venv`, installs dependencies, and prompts for Jira credentials.
+Get an API token: https://id.atlassian.com/manage-profile/security/api-tokens
+
+## Manual install
 
 ```bash
 pip3 install -r requirements.txt
@@ -20,15 +33,7 @@ JIRA_PRODUCTION_FILTER_ID=
 JIRA_PRODUCTION_DASHBOARD_URL=
 ```
 
-Get an API token: https://id.atlassian.com/manage-profile/security/api-tokens
-
-## Run
-
-```bash
-python3 app.py
-```
-
-Open http://localhost:8080
+Then: `python3 app.py` → open http://localhost:8080
 
 ## Files
 
