@@ -59,7 +59,7 @@ N_HEADS = 4
 N_LAYERS = 3
 DROPOUT = 0.1
 DEVICE = 'cpu'
-MODEL_PATH = os.path.expanduser('~/tiny_llm/model.pt')
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'model.pt')
 
 class Head(nn.Module):
     def __init__(self, head_size):
