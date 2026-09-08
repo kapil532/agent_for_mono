@@ -1,5 +1,4 @@
 .env
-model.pt
 teams.json
 __pycache__/
 *.pyc
