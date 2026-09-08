@@ -9,5 +9,5 @@ if not exist ".venv" (
 )
 
 echo Starting MonoceptGPT on http://localhost:8080 ...
-call .venv\Scripts\python.exe app.py
+call ".venv\Scripts\python.exe" app.py
 pause
