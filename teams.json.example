@@ -1,0 +1,15 @@
+{
+  "teams": [
+    {
+      "name": "Example Team",
+      "members": [
+        {
+          "accountId": "000000:00000000-0000-0000-0000-000000000000",
+          "displayName": "Jane Doe",
+          "email": "jane.doe@example.com",
+          "avatar": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+flask
+torch
+requests
+python-dotenv

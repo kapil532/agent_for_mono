@@ -1,0 +1,7 @@
+.env
+model.pt
+teams.json
+__pycache__/
+*.pyc
+.DS_Store
+*.jsonl
